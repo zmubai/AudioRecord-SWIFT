@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2950DE20B1A5F200307AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2950DD20B1A5F200307AC8 /* AppDelegate.swift */; };
+		DB2950E020B1A5F200307AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2950DF20B1A5F200307AC8 /* ViewController.swift */; };
+		DB2950E320B1A5F200307AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2950E120B1A5F200307AC8 /* Main.storyboard */; };
+		DB2950E520B1A5F600307AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2950E420B1A5F600307AC8 /* Assets.xcassets */; };
+		DB2950E820B1A5F600307AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2950E620B1A5F600307AC8 /* LaunchScreen.storyboard */; };
+		DB2950F320B1A5F700307AC8 /* SimpleRecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2950F220B1A5F700307AC8 /* SimpleRecoderTests.swift */; };
+		DB2950FE20B1A5F700307AC8 /* SimpleRecoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2950FD20B1A5F700307AC8 /* SimpleRecoderUITests.swift */; };
+		DB394A2B20B86D0200B43FC3 /* Mp3CodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB394A2A20B86D0200B43FC3 /* Mp3CodeKit.framework */; };
+		DB394A2D20B86D1000B43FC3 /* Mp3CodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB394A2C20B86D1000B43FC3 /* Mp3CodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2950EF20B1A5F700307AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2950D220B1A5F200307AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2950D920B1A5F200307AC8;
+			remoteInfo = SimpleRecoder;
+		};
+		DB2950FA20B1A5F700307AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2950D220B1A5F200307AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2950D920B1A5F200307AC8;
+			remoteInfo = SimpleRecoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB394A2120B8697400B43FC3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB394A2D20B86D1000B43FC3 /* Mp3CodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB2950DA20B1A5F200307AC8 /* SimpleRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2950DD20B1A5F200307AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB2950DF20B1A5F200307AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB2950E220B1A5F200307AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2950E420B1A5F600307AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2950E720B1A5F600307AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2950E920B1A5F600307AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2950EE20B1A5F700307AC8 /* SimpleRecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2950F220B1A5F700307AC8 /* SimpleRecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRecoderTests.swift; sourceTree = "<group>"; };
+		DB2950F420B1A5F700307AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2950F920B1A5F700307AC8 /* SimpleRecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2950FD20B1A5F700307AC8 /* SimpleRecoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRecoderUITests.swift; sourceTree = "<group>"; };
+		DB2950FF20B1A5F700307AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB29510F20B462FC00307AC8 /* SimpleRecoder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRecoder-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB394A2A20B86D0200B43FC3 /* Mp3CodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mp3CodeKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/SimpleRecoder-bptefllxsgtbfxgcjtutxoxfeggw/Build/Products/Debug-iphoneos/Mp3CodeKit.framework"; sourceTree = "<group>"; };
+		DB394A2C20B86D1000B43FC3 /* Mp3CodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mp3CodeKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/SimpleRecoder-bptefllxsgtbfxgcjtutxoxfeggw/Build/Products/Debug-iphoneos/Mp3CodeKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2950D720B1A5F200307AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB394A2B20B86D0200B43FC3 /* Mp3CodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2950EB20B1A5F700307AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2950F620B1A5F700307AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2950D120B1A5F200307AC8 = {
+			isa = PBXGroup;
+			children = (
+				DB394A2C20B86D1000B43FC3 /* Mp3CodeKit.framework */,
+				DB29510F20B462FC00307AC8 /* SimpleRecoder-Bridging-Header.h */,
+				DB2950DC20B1A5F200307AC8 /* SimpleRecoder */,
+				DB2950F120B1A5F700307AC8 /* SimpleRecoderTests */,
+				DB2950FC20B1A5F700307AC8 /* SimpleRecoderUITests */,
+				DB2950DB20B1A5F200307AC8 /* Products */,
+				DB29510C20B4628A00307AC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2950DB20B1A5F200307AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2950DA20B1A5F200307AC8 /* SimpleRecoder.app */,
+				DB2950EE20B1A5F700307AC8 /* SimpleRecoderTests.xctest */,
+				DB2950F920B1A5F700307AC8 /* SimpleRecoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2950DC20B1A5F200307AC8 /* SimpleRecoder */ = {
+			isa = PBXGroup;
+			children = (
+				DB2950DD20B1A5F200307AC8 /* AppDelegate.swift */,
+				DB2950DF20B1A5F200307AC8 /* ViewController.swift */,
+				DB2950E120B1A5F200307AC8 /* Main.storyboard */,
+				DB2950E420B1A5F600307AC8 /* Assets.xcassets */,
+				DB2950E620B1A5F600307AC8 /* LaunchScreen.storyboard */,
+				DB2950E920B1A5F600307AC8 /* Info.plist */,
+			);
+			path = SimpleRecoder;
+			sourceTree = "<group>";
+		};
+		DB2950F120B1A5F700307AC8 /* SimpleRecoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2950F220B1A5F700307AC8 /* SimpleRecoderTests.swift */,
+				DB2950F420B1A5F700307AC8 /* Info.plist */,
+			);
+			path = SimpleRecoderTests;
+			sourceTree = "<group>";
+		};
+		DB2950FC20B1A5F700307AC8 /* SimpleRecoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2950FD20B1A5F700307AC8 /* SimpleRecoderUITests.swift */,
+				DB2950FF20B1A5F700307AC8 /* Info.plist */,
+			);
+			path = SimpleRecoderUITests;
+			sourceTree = "<group>";
+		};
+		DB29510C20B4628A00307AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB394A2A20B86D0200B43FC3 /* Mp3CodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2950D920B1A5F200307AC8 /* SimpleRecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29510220B1A5F700307AC8 /* Build configuration list for PBXNativeTarget "SimpleRecoder" */;
+			buildPhases = (
+				DB2950D620B1A5F200307AC8 /* Sources */,
+				DB2950D720B1A5F200307AC8 /* Frameworks */,
+				DB2950D820B1A5F200307AC8 /* Resources */,
+				DB394A2120B8697400B43FC3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRecoder;
+			productName = SimpleRecoder;
+			productReference = DB2950DA20B1A5F200307AC8 /* SimpleRecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2950ED20B1A5F700307AC8 /* SimpleRecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29510520B1A5F700307AC8 /* Build configuration list for PBXNativeTarget "SimpleRecoderTests" */;
+			buildPhases = (
+				DB2950EA20B1A5F700307AC8 /* Sources */,
+				DB2950EB20B1A5F700307AC8 /* Frameworks */,
+				DB2950EC20B1A5F700307AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2950F020B1A5F700307AC8 /* PBXTargetDependency */,
+			);
+			name = SimpleRecoderTests;
+			productName = SimpleRecoderTests;
+			productReference = DB2950EE20B1A5F700307AC8 /* SimpleRecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2950F820B1A5F700307AC8 /* SimpleRecoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29510820B1A5F700307AC8 /* Build configuration list for PBXNativeTarget "SimpleRecoderUITests" */;
+			buildPhases = (
+				DB2950F520B1A5F700307AC8 /* Sources */,
+				DB2950F620B1A5F700307AC8 /* Frameworks */,
+				DB2950F720B1A5F700307AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2950FB20B1A5F700307AC8 /* PBXTargetDependency */,
+			);
+			name = SimpleRecoderUITests;
+			productName = SimpleRecoderUITests;
+			productReference = DB2950F920B1A5F700307AC8 /* SimpleRecoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2950D220B1A5F200307AC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zengbailiang;
+				TargetAttributes = {
+					DB2950D920B1A5F200307AC8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
+					DB2950ED20B1A5F700307AC8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DB2950D920B1A5F200307AC8;
+					};
+					DB2950F820B1A5F700307AC8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DB2950D920B1A5F200307AC8;
+					};
+				};
+			};
+			buildConfigurationList = DB2950D520B1A5F200307AC8 /* Build configuration list for PBXProject "SimpleRecoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2950D120B1A5F200307AC8;
+			productRefGroup = DB2950DB20B1A5F200307AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2950D920B1A5F200307AC8 /* SimpleRecoder */,
+				DB2950ED20B1A5F700307AC8 /* SimpleRecoderTests */,
+				DB2950F820B1A5F700307AC8 /* SimpleRecoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2950D820B1A5F200307AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2950E820B1A5F600307AC8 /* LaunchScreen.storyboard in Resources */,
+				DB2950E520B1A5F600307AC8 /* Assets.xcassets in Resources */,
+				DB2950E320B1A5F200307AC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2950EC20B1A5F700307AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2950F720B1A5F700307AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2950D620B1A5F200307AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2950E020B1A5F200307AC8 /* ViewController.swift in Sources */,
+				DB2950DE20B1A5F200307AC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2950EA20B1A5F700307AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2950F320B1A5F700307AC8 /* SimpleRecoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2950F520B1A5F700307AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2950FE20B1A5F700307AC8 /* SimpleRecoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2950F020B1A5F700307AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2950D920B1A5F200307AC8 /* SimpleRecoder */;
+			targetProxy = DB2950EF20B1A5F700307AC8 /* PBXContainerItemProxy */;
+		};
+		DB2950FB20B1A5F700307AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2950D920B1A5F200307AC8 /* SimpleRecoder */;
+			targetProxy = DB2950FA20B1A5F700307AC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2950E120B1A5F200307AC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2950E220B1A5F200307AC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2950E620B1A5F600307AC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2950E720B1A5F600307AC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB29510020B1A5F700307AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SimpleRecoder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB29510120B1A5F700307AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SimpleRecoder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB29510320B1A5F700307AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV9APHEY4J;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SimpleRecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SimpleRecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SimpleRecoder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB29510420B1A5F700307AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV9APHEY4J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SimpleRecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SimpleRecoder-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB29510620B1A5F700307AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleRecoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SimpleRecoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRecoder.app/SimpleRecoder";
+			};
+			name = Debug;
+		};
+		DB29510720B1A5F700307AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleRecoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SimpleRecoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRecoder.app/SimpleRecoder";
+			};
+			name = Release;
+		};
+		DB29510920B1A5F700307AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleRecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SimpleRecoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleRecoder;
+			};
+			name = Debug;
+		};
+		DB29510A20B1A5F700307AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleRecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.SimpleRecoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleRecoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2950D520B1A5F200307AC8 /* Build configuration list for PBXProject "SimpleRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29510020B1A5F700307AC8 /* Debug */,
+				DB29510120B1A5F700307AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB29510220B1A5F700307AC8 /* Build configuration list for PBXNativeTarget "SimpleRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29510320B1A5F700307AC8 /* Debug */,
+				DB29510420B1A5F700307AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB29510520B1A5F700307AC8 /* Build configuration list for PBXNativeTarget "SimpleRecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29510620B1A5F700307AC8 /* Debug */,
+				DB29510720B1A5F700307AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB29510820B1A5F700307AC8 /* Build configuration list for PBXNativeTarget "SimpleRecoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29510920B1A5F700307AC8 /* Debug */,
+				DB29510A20B1A5F700307AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2950D220B1A5F200307AC8 /* Project object */;
+}

@@ -1,0 +1,4 @@
+module OpenMp3CodeKitEX {
+    header "Mp3codeKit-PCH.h"
+    export *
+}
